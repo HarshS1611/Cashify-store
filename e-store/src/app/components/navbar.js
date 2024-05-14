@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="flex items-center gap-5">
-                    <div className="relative flex"><input className="bg-[#F5F5F5] text-xs pl-4 pr-6 py-2 rounded-sm" placeholder="What are you looking for?" type="search"></input><IoSearchOutline className="text-black absolute right-2 top-1.5 h-5 w-5" /></div>
+                    <div className="relative flex"><input className="bg-[#F5F5F5] border-0 text-xs pl-4 pr-6 py-2 rounded-sm" placeholder="What are you looking for?" type="search"></input><IoSearchOutline className="text-black absolute right-2 top-1.5 h-5 w-5" /></div>
                     <div><CiHeart className="h-6 w-6" /></div>
                     <div><BsCart3 className="h-6 w-6" /></div>
                 </div>
