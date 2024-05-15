@@ -3,6 +3,8 @@ import Navbar from "./components/navbar";
 import MainSection from "./components/home/mainSection";
 import Sale from "./components/home/flashSale";
 import Categories from "./components/home/Categories"
+import FeatureProducts from "./components/home/featureProducts"
+
 export default function Home() {
   return (
     <div>
@@ -10,6 +12,7 @@ export default function Home() {
       <MainSection/>
       <Sale/>
       <Categories/>
+      <FeatureProducts/>
     </div>
   );
 }

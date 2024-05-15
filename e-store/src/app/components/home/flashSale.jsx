@@ -42,7 +42,7 @@ const Sale = () => {
             <div className="flex justify-start text-red-600 text-xl font-bold border-l-red-600 border-l-[12px] pl-4">Today's</div>
 
             <div className="flex justify-start w-full  gap-60 mt-8 items-center  text-2xl">
-                <div className="w-80">Flash Sales</div>
+                <div className="w-80 font-bold">Flash Sales</div>
                 <div className="flex gap-2">
                     <p className="flex flex-col text-xs">Days <span className="text-2xl font-bold">03</span></p>
                     <p className="flex items-end mb-[2px]">:</p>

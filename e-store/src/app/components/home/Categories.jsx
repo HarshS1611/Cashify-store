@@ -42,7 +42,7 @@ const Categories = () => {
             <div className="flex justify-start text-red-600 text-xl font-bold border-l-red-600 border-l-[12px] pl-4">Categories</div>
 
             <div className="flex justify-start w-full  gap-60 mt-8 items-center  text-2xl">
-                <div className="w-full">Browse By Category</div>
+                <div className="w-full font-bold">Browse By Category</div>
               
                 <div className="flex justify-end w-full gap-2">
                     <button className="bg-[#F5F5F5] p-2 rounded-full" onClick={handleLeft}><HiOutlineArrowLeft className="h-5 w-5" /></button>
